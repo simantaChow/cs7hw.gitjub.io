@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #1e4fe4;
+    height: 100000px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    background-color: orange;
+    margin: auto;
+}
+
+.first img{
+    width: 150px;
+    margin: 0 0 0 10px; 
+}
+
+.first ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.first ul li{
+    position: relative;
+}
+
+.first ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    padding: 25px 20px;
+    transition: .8s;
+}
+
+.first ul li a:hover{
+    color: orange;
+    background-color: black;
+}
+
+.first ul li ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    display: initial;
+    width: 140px;
+    background-color: aliceblue;
+    border: orange solid 2px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .8s;
+}
+
+.first ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+/* second */
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    background-color: rgb(46, 235, 125);
+    margin: auto;
+    margin-top: 200px;
+}
+
+.second img{
+    width: 150px;
+    margin: 0 0 0 10px; 
+}
+
+.second ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.second ul li{
+    position: relative;
+}
+
+.second ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    padding: 25px 20px;
+    transition: .8s;
+}
+
+.second ul li a:hover{
+    color: orange;
+    background-color: black;
+}
+
+.second ul li ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    display: initial;
+    width: 140px;
+    background-color: aliceblue;
+    border: orange solid 2px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .8s;
+    transform: scaleY(2);
+}
+
+.second ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: scaleY(1);
+}
+
+
+/* third */
+
+
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    background-color: rgb(240, 214, 70);
+    margin: auto;
+    margin-top: 200px;
+}
+
+.third img{
+    width: 150px;
+    margin: 0 0 0 10px; 
+}
+
+.third ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.third ul li{
+    position: relative;
+}
+
+.third ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    padding: 25px 20px;
+    transition: .8s;
+}
+
+.third ul li a:hover{
+    color: orange;
+    background-color: black;
+}
+
+.third ul li ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    display: initial;
+    width: 140px;
+    background-color: aliceblue;
+    border: orange solid 2px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .8s;
+    transform: skewX(30deg);
+}
+
+.third ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: skewX(0deg);
+}
+
+
+
+
+
+
+
+

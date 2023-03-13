@@ -1,2 +1,2 @@
-# cs7hw.gitjub.io
-cs7hw.gitjub.io
+# hwcs7.github.io
+Creative it class 7 hw
